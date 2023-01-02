@@ -173,7 +173,9 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
-
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 48px;
 }
 .main-button {
@@ -243,6 +245,10 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer a {
+  margin: 0;
+  padding: 0;
+}
 .sub-logo {
   color: #f4f4fd;
 }
@@ -252,8 +258,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  box-sizing: content-box;
-  width: 262px;
+  width: 268px;
   padding-left: 2px;
   padding-right: 2px;
   margin-top: 16px;
@@ -307,8 +312,5 @@ flex-basis: calc(100%/3-var(--card-set-gap));
   padding: 32px 16px;
   border: 1px solid var(--accent-color);
 }
-
-
-
 
 /* ======================== /PORTFOLIO ======================== */
