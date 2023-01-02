@@ -41,6 +41,10 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ======================== Components ========================*/
 
 .main-logo {
@@ -194,10 +198,7 @@ img {
 /* ======================== /hero ======================== */
 
 /* ======================== PECULARITIES ======================== */
-.peculiarities {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .list-peculiarities {
   display: flex;
   align-self: center;
@@ -223,8 +224,7 @@ img {
 /* ======================== PERSONAL======================== */
 .personal {
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
   background-color: #f4f4fd;
 }
 .list-personal {
