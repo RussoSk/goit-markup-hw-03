@@ -56,10 +56,7 @@ img {
   color: var(--primary-color);
   text-transform: uppercase;
 
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 76px;
-  
 }
 .sup-logo {
   color: var(--title-color);
@@ -103,7 +100,7 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -116,6 +113,8 @@ img {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .main-header {
   display: flex;
@@ -203,6 +202,10 @@ img {
   display: flex;
   align-self: center;
 }
+.item-peculiarities {
+  width: 264px;
+}
+
 .item-peculiarities:not(:nth-child(4)) {
   margin-right: 24px;
 }
@@ -235,7 +238,8 @@ img {
 .card-text-personal {
   padding-top: 32px;
   padding-bottom: 32px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 /* ======================== /PERSONAL======================== */
@@ -247,7 +251,6 @@ img {
 }
 .footer a {
   margin: 0;
-  padding: 0;
 }
 .sub-logo {
   color: #f4f4fd;
@@ -266,46 +269,41 @@ img {
 /* ======================== /footer======================== */
 
 /* ======================== PORTFOLIO ======================== */
-.navigation-portfolio {
+.portfolio {
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 120px;
 }
-.list-portfolio {
+.list-navigation {
   display: flex;
   justify-content: center;
   column-gap: 24px;
 }
-/* .item-portfolio:not(:last-child) {
-  margin-right: 24px;
-} */
 
 .button-portfolio {
   background-color: var(--accent-color);
   color: var(--primary-color);
   padding: 12px 24px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
+  margin-bottom: 72px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: var(--primary-color);
   color: var(--accent-color);
 }
-.projekt {
-  padding-bottom: 120px;
-}
+
 .list-projekt {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-left: calc(-1 * var(--card-set-gap));
-  margin-top:  calc(-1 * var(--card-set-gap));
-
+  margin-top: calc(-1 * var(--card-set-gap));
 }
 .item-projekt {
-margin-left: var(--card-set-gap);
-margin-top: var(--card-set-gap);
-flex-basis: calc(100%/3-var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+  flex-basis: calc(100% / 3-var(--card-set-gap));
 }
 
 .card-content {
