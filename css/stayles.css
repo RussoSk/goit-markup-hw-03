@@ -278,6 +278,9 @@ img {
   justify-content: center;
   column-gap: 24px;
 }
+.list-navigation {
+  margin-bottom: 72px;
+}
 
 .button-portfolio {
   background-color: var(--accent-color);
@@ -285,7 +288,7 @@ img {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  margin-bottom: 72px;
+  
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
